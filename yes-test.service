@@ -1,0 +1,12 @@
+[Unit]
+Description=Test Service Yes
+After=network.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/yes HELLO > /dev/null
+Restart=always
+Environment=MY_IMPORTANT_ENV=Q0aHUoeIASy84plu5asK_
+
+[Install]
+WantedBy=multi-user.target
