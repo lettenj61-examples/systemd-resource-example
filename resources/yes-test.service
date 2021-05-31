@@ -5,9 +5,10 @@ After=network.service
 [Service]
 CPUQuota=20%
 Type=simple
-ExecStart=/usr/bin/env node -e \'while(true){}\'
+ExecStart=/opt/yes-test/run
 Restart=always
 Environment=MY_IMPORTANT_ENV=Q0aHUoeIASy84plu5asK_
+Environment=PORT=8001
 
 [Install]
 WantedBy=multi-user.target
