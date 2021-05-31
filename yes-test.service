@@ -3,6 +3,7 @@ Description=Test Service Yes
 After=network.service
 
 [Service]
+CPUQuota=20%
 Type=simple
 ExecStart=/usr/bin/yes HELLO > /dev/null
 Restart=always
