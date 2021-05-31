@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "files": ["app"],
+  "devDependencies": {
+    "@types/node": "^15.6.1"
+  }
+}

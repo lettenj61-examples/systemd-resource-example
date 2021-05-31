@@ -5,7 +5,7 @@ After=network.service
 [Service]
 CPUQuota=20%
 Type=simple
-ExecStart=/usr/bin/env node -e 'while(true){}'
+ExecStart=/usr/bin/env node -e \'while(true){}\'
 Restart=always
 Environment=MY_IMPORTANT_ENV=Q0aHUoeIASy84plu5asK_
 
